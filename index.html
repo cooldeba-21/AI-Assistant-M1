@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assisstant M1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="ai.png" />
+</head>
+<body>
+    <!-- <div class="tilt-card">
+        <h2>3D Tilt Title</h2>
+        <p>Some interactive card content.</p>
+    </div> -->
+    <div id="particles-js"></div>
+    <div class="main-container">
+        <h1 class="main-title">🚀 Interactive AI Chat Demo</h1>
+        <p class="intro-text">
+            Experience seamless real-time chat with M1 — powered by smooth animations,immersive UI effects, and a built-in AI assistant.
+        </p>
+        <div class="features-list">
+            <div class="feature">✨ Typing animation</div>
+            <div class="feature">🎨 Glassmorphism design</div>
+            <div class="feature">💬 Real-time chat interface</div>
+        </div>
+        <button class="cta" id="open-chat">Try It Now</button>
+    </div>
+    <section class="chatbot hidden">
+        <button class="close">x close</button>
+        <div class="chat-container">
+            <!-- <div class="model">
+                <p></p>
+            </div>
+            <div class="user">
+                <p></p>
+            </div> -->
+            <!-- <div class="typing">
+                <p>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </p>
+            </div> -->
+        </div>
+        <div class="input-area">
+            <input type="text" class="input-field" placeholder="Type your message here..." id="input-field">
+            <button class="send-button" >
+                <img src="send.png" alt="send">
+            </button>
+        </div>
+    </section>
+    <div class="chat-toggle" id="chat-toggle"><img src="assistant.png" alt="assistant"></div>
+    <section id="contact" class="contact-section">
+        <h2>Contact Me!</h2>
+        <form action="https://formspree.io/f/xdkzplpg" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="_replyto" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <div class="contact-toggle" id="contact-toggle"><img src="email.png" alt="email"></div>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'raleway': ['Raleway', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': '#4A90E2',
+                        'secondary': '#50E3C2',
+                        'background': '#F5F7FA',
+                        'text': '#333333',
+                    },
+                    boxShadow: {
+                        'custom': '0 4px 6px rgba(0, 0, 0, 0.1)',
+                    },
+                    spacing: {
+                        '18': '4.5rem',
+                        '72': '18rem',
+                    },
+                },
+            },  
+        variants: {
+                extend: {
+                    backgroundColor: ['active'],
+                    textColor: ['visited'],
+                },
+            },
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 50 },
+            color: { value: "#ffffff" },
+            shape: { type: "circle" },
+            opacity: { value: 0.2 },
+            size: { value: 4 },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: "#ffffff",
+                opacity: 0.2,
+                width: 1
+            },
+            move: { enable: true, speed: 2 }
+       },
+       interactivity: {
+        detect_on: "canvas",
+        events: { onhover: { enable: true, mode: "grab" } },
+        modes: { grab: { distance: 140, line_linked: { opacity: 0.3 } } }
+       },
+       retina_detect: true
+    });
+    </script>
+
+    <script src="script.js"></script>        
+</body>
+</html>
