@@ -1,19 +1,19 @@
-##AI Assistant M1 — Gemini Pro Powered Chatbot 💬
+# AI Assistant M1 — Gemini Pro Powered Chatbot 💬
 <img width="1894" height="965" alt="image" src="https://github.com/user-attachments/assets/2cabfce4-8da8-4200-b138-0c8c8660e6ed" />
 
 Lightweight, interactive AI chatbot built with vanilla JS, CSS, and HTML.
 
-##🚀 Live Demo
+## 🚀 Live Demo
 👉 AI Assistant M1 :
 https://aichatbotm1.netlify.app/
 
-##📝 About This Project
+## 📝 About This Project
 AI Assistant M1 is a real-time AI-powered chatbot that integrates with Google’s Gemini Pro API.
 Built using only vanilla HTML, CSS, and JavaScript, it delivers a sleek frontend experience without relying on any frameworks.
 
 The project also features UI/UX enhancements like animated particles, glassmorphism design, 3D tilt effects, and a fully responsive layout.
 
-##🎯 Features
+## 🎯 Features
 💬 Real-Time AI Chat — Gemini Pro API powered chatbot
 
 🎨 Interactive UI — Glassmorphism design + 3D card tilt hover
@@ -26,7 +26,7 @@ The project also features UI/UX enhancements like animated particles, glassmorph
 
 📱 Responsive Design — Optimized for all devices
 
-##🧠 What I Learned
+## 🧠 What I Learned
 AI API integration with real-time user input handling
 
 Managing API keys on the frontend with domain restrictions
@@ -37,28 +37,29 @@ Using particles.js for motion-based UI enhancements
 
 Implementing backend-free contact forms with Formspree
 
-##⚙️ Tech Stack
+## ⚙️ Tech Stack
 Frontend	AI Integration	Animations
 HTML5	Google Gemini Pro API	particles.js
 CSS3	REST API with Fetch	CSS Transitions & Animations
 Vanilla JavaScript		
 
-##🔐 Security Note
+## 🔐 Security Note
 This project uses an obfuscated API key with domain-based restrictions to prevent unauthorized access.
 ⚠️ Always secure your keys when deploying frontend applications.
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 Google Gemini Pro API
 particles.js
 Formspree
 GitHub Pages
 
-📬 Contact
+## 📬 Contact
 Feel free to connect:
 📧 [debashismohapatra8260@gmail.com]
+
 💼 [https://www.linkedin.com/in/debashis-mohapatra-113523302/]
 
-📜 License
+## 📜 License
 This project is open for learning purposes. Please do not misuse the Gemini API key.
 MIT License 
 
